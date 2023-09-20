@@ -34,7 +34,7 @@ clustNumDecision = 'SI_jump';%it may be: 'SI_jump','onion','simplex', 'all_clust
 densityType = 'local';%type of density estimation: select 'local' or 'localp' (normalise dimensions)
 
 %Select method to estimate the density lines.
-lineDensityMethod = 'slow';%line density method - can be 'slow', 'medium', 'fast, 'slowPar', 'mediumPar', 'fastPar' - "par" methods uses Matlab parallel toolbox
+lineDensityMethod = 'fast';%line density method - can be 'slow', 'medium', 'fast, 'slowPar', 'mediumPar', 'fastPar' - "par" methods uses Matlab parallel toolbox
 
 %parameter that defines the number of edges uses in the 'medium' or 'mediumPar' 
 numextra = sqrt(length(data));%it does not do anything if another line density method is selected
