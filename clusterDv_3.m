@@ -1,5 +1,4 @@
-clear all
-close all
+clc;clear;close all;
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% read me %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,7 +79,3 @@ makeplot = 1;%clustering solution, dendrogram, and SI jump in the case this meth
 %SImeasure - separability index for each point.
 %SImeasureRandThreshold - threshold defined by method that selects cluster centers.
 %trer - SI dendrogram.
-
-
-
-
