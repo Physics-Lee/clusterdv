@@ -26,6 +26,7 @@ if path ~= 0
             % visulize
             figure;
             scatter(data(:,1),data(:,2));
+            axis equal;
 
             % save
             save_full_path = strrep(full_path,'mat','png');
