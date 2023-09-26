@@ -23,14 +23,9 @@ if path ~= 0
             full_path = list{ii};
             load(full_path);
 
-            % visulize
-            figure;
-            scatter(data(:,1),data(:,2));
-            axis equal;
-
             % save
-            save_full_path = strrep(full_path,'.mat','.png');
-            saveas(gcf,save_full_path);
+            save_full_path = strrep(full_path,'.mat','.csv');
+            writematrix(data,save_full_path);
 
         end
     end
